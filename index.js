@@ -3,24 +3,6 @@ const app = express();
 
 const data = [
   {
-    nombre: "Batman",
-    foto: "https://pm1.narvii.com/6234/30d5abd9037c39f9edf0544cf55bf3a222e2ce0f_hq.jpg",
-    correo: "batman97@gmail.com",
-    telefono: "0997426891",
-  },
-  {
-    nombre: "Superman",
-    foto: "https://cdn.domestika.org/c_fill,dpr_auto,h_256,t_base_params.format_jpg,w_256/v1543272839/avatars/000/935/688/935688-original.jpg?1543272839",
-    correo: "superman58@gmail.com",
-    telefono: "0997425231",
-  },
-  {
-    nombre: "Aquaman",
-    foto: "https://es.web.img3.acsta.net/pictures/19/02/01/21/02/1004291.jpg",
-    correo: "auqueamanh@hotmail.com",
-    telefono: "09897456321",
-  },
-  {
     nombre: "Yugi Muto",
     foto: "https://pm1.narvii.com/6226/34452d4e7d3214599efcf39b471c30ba46429a37_00.jpg",
     correo: "ymuto@hotmail.com",
@@ -121,6 +103,24 @@ const data = [
     foto: "https://pbs.twimg.com/profile_images/655891351482073088/ijRVTqET_400x400.jpg",
     correo: "lmessi@hotmail.com",
     telefono: "09285987405",
+  },
+  {
+    nombre: "Batman",
+    foto: "https://pm1.narvii.com/6234/30d5abd9037c39f9edf0544cf55bf3a222e2ce0f_hq.jpg",
+    correo: "batman97@gmail.com",
+    telefono: "0997426891",
+  },
+  {
+    nombre: "Superman",
+    foto: "https://cdn.domestika.org/c_fill,dpr_auto,h_256,t_base_params.format_jpg,w_256/v1543272839/avatars/000/935/688/935688-original.jpg?1543272839",
+    correo: "superman58@gmail.com",
+    telefono: "0997425231",
+  },
+  {
+    nombre: "Aquaman",
+    foto: "https://es.web.img3.acsta.net/pictures/19/02/01/21/02/1004291.jpg",
+    correo: "auqueamanh@hotmail.com",
+    telefono: "09897456321",
   },
 ];
 
