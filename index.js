@@ -125,7 +125,7 @@ const data = [
 ];
 
 app.get("/data", (request, response) => {
-    response.json({ data: data });
+  response.json(data);
 });
 
 app.get("/", (request, response) => {
