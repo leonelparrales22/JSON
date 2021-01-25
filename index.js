@@ -132,6 +132,6 @@ app.get("/", (request, response) => {
   response.json({ data: data });
 });
 
-app.listen("8010", () => {
-  console.log("SERVIDOR EN 8010");
+app.listen(process.env.PORT, () => {
+  console.log("SERVIDOR EN ", process.env.PORT);
 });
