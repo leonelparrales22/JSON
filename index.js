@@ -128,6 +128,10 @@ app.get("/data", (request, response) => {
     response.json({ data: data });
 });
 
+app.get("/", (request, response) => {
+  response.json({ data: data });
+});
+
 app.listen("8010", () => {
   console.log("SERVIDOR EN 8010");
 });
